@@ -13,7 +13,7 @@
   - group(optional): [string|Array of string] Gouping few option under a parent options.
 */
 const path = require('path');
-const { OUTPUT_DIRECTORY_NAME } = require('./dist/constants');
+const { OUTPUT_DIRECTORY_NAME, IS_YN } = require('./dist/constants');
 
 module.exports = {
   customOptions: [
@@ -30,9 +30,9 @@ module.exports = {
     featurePath: '**',
     featureFilename: '*',
     reportName: 'cucumberReport',
-    require: 'dist/step_definitions/**/*.js',
+    require: 'dist/step-definitions/**/*.js',
     format: 'json',
-    parallel: false,
+    parallel: IS_YN.N,
   },
   seleniumOptions: {
     arch: process.arch,
