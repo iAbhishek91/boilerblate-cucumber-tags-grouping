@@ -9,12 +9,14 @@
   "scripts": {
     "build": "rm -rf dist && babel src -d dist",
     "lint": "eslint src",
-    "selenium:install": "optimus selenium-install"
+    "optimus:help": "optimus",
+    "selenium:install": "optimus selenium-install",
+    "start-test": "optimus start-test"
   },
   "dependencies": {
     "cucumber": "^6.0.2",
     "cucumber-tags-grouping": "^2.0.0",
-    "optimus-automation": "^1.0.8"
+    "optimus-automation": "^1.1.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.6.0",

@@ -2968,10 +2968,10 @@ open@^6.4.0:
   dependencies:
     is-wsl "^1.1.0"
 
-optimus-automation@^1.0.8:
-  version "1.0.8"
-  resolved "https://registry.yarnpkg.com/optimus-automation/-/optimus-automation-1.0.8.tgz#ec7beaebdc8fa8da0cb79779308758b9bad7b2d1"
-  integrity sha512-OI/6MNrguFV6IqEWcFKBAou5wsqxizOXt+rDB48EZWsSxU0VN3IoEMobbjuELuAlSwVhcmdnXaLtpWFfIfb4OQ==
+optimus-automation@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/optimus-automation/-/optimus-automation-1.1.0.tgz#48096737bcff3894bede6dfaedbc1761311bd902"
+  integrity sha512-dTghMM/fvLIE8GmLzrHLb6WEtWEE89s6hIftbm9Bnd0931rZXDzDmSCC0YXp1GiliGKUEYn+AC8/AN/q+jcMGw==
   dependencies:
     command-line-args "^5.1.1"
     command-line-usage "^6.0.2"

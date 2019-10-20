@@ -34,16 +34,4 @@ module.exports = {
     format: 'json',
     parallel: IS_YN.N,
   },
-  seleniumOptions: {
-    arch: process.arch,
-    seleniumBaseURL: 'https://selenium-release.storage.googleapis.com',
-    seleniumVersion: '3.141.5',
-    chromeBaseURL: 'https://chromedriver.storage.googleapis.com',
-    chromeVersion: '2.43',
-    ieBaseURL: 'https://selenium-release.storage.googleapis.com',
-    ieVersion: '3.14.0',
-    firefoxBaseURL: 'https://github.com/mozilla/geckodriver/releases/download',
-    firefoxVersion: '0.23.0',
-    edgeVersion: '17134',
-  }
 };
