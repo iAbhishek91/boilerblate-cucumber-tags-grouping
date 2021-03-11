@@ -14,9 +14,9 @@
     "start-test": "optimus start-test"
   },
   "dependencies": {
-    "cucumber": "^6.0.2",
+    "cucumber": "^5.1.0",
     "cucumber-tags-grouping": "^2.0.0",
-    "optimus-automation": "^1.1.0"
+    "optimus-automation": "^1.2.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.6.0",
